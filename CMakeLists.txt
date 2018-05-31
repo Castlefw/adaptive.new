@@ -1,4 +1,4 @@
-project(adaptive.new)
+project(inputstream.adaptive)
 
 cmake_minimum_required(VERSION 2.6)
 
@@ -86,6 +86,6 @@ endif()
 list(APPEND DEPLIBS bento4)
 list(APPEND DEPLIBS mpegts)
 
-build_addon(adaptive.new ADP DEPLIBS)
+build_addon(inputstream.adaptive ADP DEPLIBS)
 
 include(CPack)

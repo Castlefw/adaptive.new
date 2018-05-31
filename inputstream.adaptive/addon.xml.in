@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon
-  id="adaptive.new"
-  version="2.2.21"
+  id="inputstream.adaptive"
+  version="2.2.201"
   name="InputStream Adaptive"
-  provider-name="Castle1504">
+  provider-name="Castle_fw">
   <requires>@ADDON_DEPENDS@</requires>
   <extension
     point="kodi.inputstream"
-    name="adaptive.new"
+    name="adaptive"
     extension=""
     tags="true"
     listitemprops="license_type|license_key|license_data|manifest_type|server_certificate|stream_headers|manifest_update_parameter"
     library_@PLATFORM@="@LIBRARY_FILENAME@"/>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">InputStream client for adaptive streams</summary>
-    <description lang="en">InputStream client for adaptive streams</description>
+    <summary lang="en">InputStream client for adaptive streams [MOD]</summary>
+    <description lang="en">InputStream client for adaptive streams [MOD]</description>
     <platform>@PLATFORM@</platform>
   </extension>
 </addon>
