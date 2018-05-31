@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon
-  id="inputstream.adaptive"
+  id="adaptive.new"
   version="2.2.21"
   name="InputStream Adaptive"
-  provider-name="peak3d">
+  provider-name="Castle1504">
   <requires>@ADDON_DEPENDS@</requires>
   <extension
     point="kodi.inputstream"
-    name="adaptive"
+    name="adaptive.new"
     extension=""
     tags="true"
     listitemprops="license_type|license_key|license_data|manifest_type|server_certificate|stream_headers|manifest_update_parameter"
